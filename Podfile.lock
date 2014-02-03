@@ -1,0 +1,13 @@
+PODS:
+  - Classy (0.2.3)
+  - DZLCategoryProperties (1.0.0)
+
+DEPENDENCIES:
+  - Classy (~> 0.2.3)
+  - DZLCategoryProperties (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  Classy: cc3b912e93d55e24782277295e5cdee54d6f7480
+  DZLCategoryProperties: 6f96ca76595ef82283ace1f58ed57f3d40c68cec
+
+COCOAPODS: 0.29.0
