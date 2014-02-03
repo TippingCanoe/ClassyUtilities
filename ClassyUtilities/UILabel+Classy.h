@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UILabel (Classy)
-- (void)setCas_localizedText:(NSString *)text;
+@property (nonatomic,assign) NSString *cas_localizedText;
 
 @end

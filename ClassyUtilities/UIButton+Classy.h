@@ -10,9 +10,6 @@
 
 
 @interface UIButton (Classy)
-
-- (void)setCas_localizedText:(NSString *)string forControlState:(UIControlState)state;
-
-- (void)setCas_font:(UIFont *)font;
-
+@property (nonatomic,assign) NSString *cas_localizedTitle;
+@property (nonatomic,assign) UIFont *cas_font;
 @end

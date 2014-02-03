@@ -7,14 +7,13 @@
 //
 
 #import "UIButton+Classy.h"
+#import <NSObject+DZLCategoryProperties.h>
 
 @implementation UIButton (Classy)
+@dynamic cas_font;
+@dynamic cas_localizedTitle;
 
-- (void)setCas_localizedText:(NSString *)string forControlState:(UIControlState)state{
-    [self setTitle:NSLocalizedString(string, nil) forState:state];
-}
-
-- (void)setCas_font:(UIFont *)font{
-    [self.titleLabel setFont:font];
++ (void)load{
+    [self DZL_implementDynamicPropertyAccessors];
 }
 @end

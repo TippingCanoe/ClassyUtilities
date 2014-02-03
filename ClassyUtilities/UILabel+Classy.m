@@ -7,9 +7,13 @@
 //
 
 #import "UILabel+Classy.h"
+#import <NSObject+DZLCategoryProperties.h>
 
 @implementation UILabel (Classy)
-- (void)setCas_localizedText:(NSString *)text{
-    [self setText:NSLocalizedString(text, nil)];
+
+@dynamic cas_localizedText;
+
++ (void)load{
+    [self DZL_implementDynamicPropertyAccessors];
 }
 @end
