@@ -16,4 +16,12 @@
 + (void)load{
     [self DZL_implementDynamicPropertyAccessors];
 }
+
+- (void)setCas_localizedText:(NSString *)cas_localizedTitle{
+    [self setText:NSLocalizedString(cas_localizedTitle, nil)];
+}
+
+- (NSString *)cas_localizedText{
+    return self.text;
+}
 @end

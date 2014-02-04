@@ -16,4 +16,21 @@
 + (void)load{
     [self DZL_implementDynamicPropertyAccessors];
 }
+
+- (void)setCas_font:(UIFont *)cas_font{
+    self.titleLabel.font = cas_font;
+}
+
+- (UIFont *)cas_font{
+    return self.titleLabel.font;
+    [self setTitle:@"asdF" forState:UIControlStateNormal];
+}
+
+- (void)setCas_localizedTitle:(NSString *)cas_localizedTitle{
+    [self setTitle:NSLocalizedString(cas_localizedTitle, nil) forState:UIControlStateNormal];
+}
+
+- (NSString *)cas_localizedTitle{
+    return [self titleForState:UIControlStateNormal];
+}
 @end

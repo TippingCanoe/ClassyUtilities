@@ -10,6 +10,6 @@
 
 
 @interface UIButton (Classy)
-@property (nonatomic,assign) NSString *cas_localizedTitle;
-@property (nonatomic,assign) UIFont *cas_font;
+@property (nonatomic,weak) NSString *cas_localizedTitle;
+@property (nonatomic,weak) UIFont *cas_font;
 @end
