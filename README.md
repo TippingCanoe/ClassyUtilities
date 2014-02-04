@@ -18,7 +18,7 @@ Let's you specify the use of localized text content, and setting of fonts on UIB
 
 ClassyUtilities was originally created by [Jeff Friesen](https://github.com/robotafterall) in the development of apps for [Tipping Canoe](https://github.com/TippingCanoe).
 
-Classy is an awesome stylesheet framework for iOS [Classy](http://classy.as/)
+[Classy](http://classy.as/) is an awesome stylesheet framework for iOS 
 
 ## License
 
