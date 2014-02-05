@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04C7654774904604A96E6CE4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BA776A8C3A4EF79C2B6C4E /* libPods.a */; };
+		8415EA2318A2CAC4003B33A5 /* UIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415EA2218A2CAC4003B33A5 /* UIImage+Utilities.m */; };
 		841E2A5118A02B16008042C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841E2A5018A02B16008042C9 /* Foundation.framework */; };
 		841E2A5618A02B16008042C9 /* ClassyUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 841E2A5518A02B16008042C9 /* ClassyUtilities.h */; };
 		841E2A5818A02B16008042C9 /* ClassyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E2A5718A02B16008042C9 /* ClassyUtilities.m */; };
@@ -47,6 +48,8 @@
 /* Begin PBXFileReference section */
 		46BA776A8C3A4EF79C2B6C4E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B189619A150413E86BF35DF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8415EA2118A2CAC4003B33A5 /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utilities.h"; sourceTree = "<group>"; };
+		8415EA2218A2CAC4003B33A5 /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utilities.m"; sourceTree = "<group>"; };
 		841E2A4D18A02B16008042C9 /* libClassyUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libClassyUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		841E2A5018A02B16008042C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		841E2A5418A02B16008042C9 /* ClassyUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassyUtilities-Prefix.pch"; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 		841E2A5218A02B16008042C9 /* ClassyUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				8415EA2118A2CAC4003B33A5 /* UIImage+Utilities.h */,
+				8415EA2218A2CAC4003B33A5 /* UIImage+Utilities.m */,
 				841E2A7618A02C79008042C9 /* UILabel+Classy.h */,
 				841E2A7718A02C79008042C9 /* UILabel+Classy.m */,
 				841E2A7918A02C8A008042C9 /* UIButton+Classy.h */,
@@ -279,6 +284,7 @@
 			files = (
 				841E2A5818A02B16008042C9 /* ClassyUtilities.m in Sources */,
 				841E2A7818A02C79008042C9 /* UILabel+Classy.m in Sources */,
+				8415EA2318A2CAC4003B33A5 /* UIImage+Utilities.m in Sources */,
 				841E2A7B18A02C8A008042C9 /* UIButton+Classy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
