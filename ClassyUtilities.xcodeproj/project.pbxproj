@@ -20,6 +20,7 @@
 		841E2A6D18A02B16008042C9 /* ClassyUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E2A6C18A02B16008042C9 /* ClassyUtilitiesTests.m */; };
 		841E2A7818A02C79008042C9 /* UILabel+Classy.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E2A7718A02C79008042C9 /* UILabel+Classy.m */; };
 		841E2A7B18A02C8A008042C9 /* UIButton+Classy.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E2A7A18A02C8A008042C9 /* UIButton+Classy.m */; };
+		84CF96001A3A621B00480703 /* UITextField+Classy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF95FF1A3A621B00480703 /* UITextField+Classy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		46BA776A8C3A4EF79C2B6C4E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B189619A150413E86BF35DF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		812B453B2FBFDF6BA0BF6406 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8415EA2118A2CAC4003B33A5 /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utilities.h"; sourceTree = "<group>"; };
 		8415EA2218A2CAC4003B33A5 /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utilities.m"; sourceTree = "<group>"; };
 		841E2A4D18A02B16008042C9 /* libClassyUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libClassyUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +67,9 @@
 		841E2A7918A02C8A008042C9 /* UIButton+Classy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Classy.h"; sourceTree = "<group>"; };
 		841E2A7A18A02C8A008042C9 /* UIButton+Classy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Classy.m"; sourceTree = "<group>"; };
 		841E2A7C18A03C1E008042C9 /* ClassyUtilities.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ClassyUtilities.podspec; sourceTree = "<group>"; };
+		84CF95FE1A3A621B00480703 /* UITextField+Classy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Classy.h"; sourceTree = "<group>"; };
+		84CF95FF1A3A621B00480703 /* UITextField+Classy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Classy.m"; sourceTree = "<group>"; };
+		92DF283F4DF9B243FD2D35FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832EBCCC3938506D3108D0ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92DF283F4DF9B243FD2D35FB /* Pods.debug.xcconfig */,
+				812B453B2FBFDF6BA0BF6406 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		841E2A4418A02B16008042C9 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +113,7 @@
 				841E2A6618A02B16008042C9 /* ClassyUtilitiesTests */,
 				841E2A4F18A02B16008042C9 /* Frameworks */,
 				841E2A4E18A02B16008042C9 /* Products */,
-				6B189619A150413E86BF35DF /* Pods.xcconfig */,
+				832EBCCC3938506D3108D0ED /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +149,8 @@
 				841E2A5518A02B16008042C9 /* ClassyUtilities.h */,
 				841E2A5718A02B16008042C9 /* ClassyUtilities.m */,
 				841E2A5318A02B16008042C9 /* Supporting Files */,
+				84CF95FE1A3A621B00480703 /* UITextField+Classy.h */,
+				84CF95FF1A3A621B00480703 /* UITextField+Classy.m */,
 			);
 			path = ClassyUtilities;
 			sourceTree = "<group>";
@@ -272,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -286,6 +301,7 @@
 				841E2A7818A02C79008042C9 /* UILabel+Classy.m in Sources */,
 				8415EA2318A2CAC4003B33A5 /* UIImage+Utilities.m in Sources */,
 				841E2A7B18A02C8A008042C9 /* UIButton+Classy.m in Sources */,
+				84CF96001A3A621B00480703 /* UITextField+Classy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +407,7 @@
 		};
 		841E2A7118A02B16008042C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B189619A150413E86BF35DF /* Pods.xcconfig */;
+			baseConfigurationReference = 92DF283F4DF9B243FD2D35FB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/ClassyUtilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -404,7 +420,7 @@
 		};
 		841E2A7218A02B16008042C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B189619A150413E86BF35DF /* Pods.xcconfig */;
+			baseConfigurationReference = 812B453B2FBFDF6BA0BF6406 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/ClassyUtilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

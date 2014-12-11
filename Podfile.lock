@@ -7,7 +7,7 @@ DEPENDENCIES:
   - DZLCategoryProperties (~> 1.0.0)
 
 SPEC CHECKSUMS:
-  Classy: cc3b912e93d55e24782277295e5cdee54d6f7480
-  DZLCategoryProperties: 6f96ca76595ef82283ace1f58ed57f3d40c68cec
+  Classy: 296f11ffe9c40284bd6c7daa0c9f62cf999c22ea
+  DZLCategoryProperties: f53bc2ac5c3cf1c7b03ab4dfeb3c58979d024cee
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.34.4

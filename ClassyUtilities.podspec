@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Jeff Friesen" => "j.friesen@tippingcanoe.com" }
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "git@github.com:TippingCanoe/ClassyUtilities.git", :tag => "0.1.4" }
+  s.source       = { :git => "git@github.com:TippingCanoe/ClassyUtilities.git", :tag => "0.1.5" }
   s.source_files  = 'ClassyUtilities/*.{h,m}'
   s.requires_arc = true
   s.dependency 'Classy', '~> 0.2.3'
