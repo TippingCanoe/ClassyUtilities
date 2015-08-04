@@ -12,7 +12,9 @@
 @implementation UITextField (Classy)
 - (void)setCas_placeholderColor:(UIColor *)cas_placeholderColor{
     objc_setAssociatedObject(self, @selector(cas_placeholderColor), cas_placeholderColor, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-    self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName: cas_placeholderColor}];
+    if (self.placeholder && cas_placeholderColor) {
+        self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName: cas_placeholderColor}];
+    }
 }
 
 - (UIColor *)cas_placeholderColor {
