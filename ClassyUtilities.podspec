@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'Classy', '~> 0.2.3'
   s.dependency 'DZLCategoryProperties', '~> 1.0.0'
-  s.dependency 'UIImage+ImageWithColor', '1.4.0'
 
 end

@@ -8,7 +8,7 @@
 
 #import "UIButton+Classy.h"
 #import <NSObject+DZLCategoryProperties.h>
-#import <UIImage+ImageWithColor.h>
+#import "UIImage+ImageWithColor.h"
 
 @implementation UIButton (Classy)
 @dynamic cas_font;

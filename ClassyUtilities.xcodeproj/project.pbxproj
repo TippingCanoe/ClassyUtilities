@@ -19,6 +19,7 @@
 		841E2A6D18A02B16008042C9 /* ClassyUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E2A6C18A02B16008042C9 /* ClassyUtilitiesTests.m */; };
 		841E2A7818A02C79008042C9 /* UILabel+Classy.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E2A7718A02C79008042C9 /* UILabel+Classy.m */; };
 		841E2A7B18A02C8A008042C9 /* UIButton+Classy.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E2A7A18A02C8A008042C9 /* UIButton+Classy.m */; };
+		8486261D1D99833200968E77 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8486261C1D99833200968E77 /* UIImage+ImageWithColor.m */; };
 		84CF96001A3A621B00480703 /* UITextField+Classy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF95FF1A3A621B00480703 /* UITextField+Classy.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		841E2A7918A02C8A008042C9 /* UIButton+Classy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Classy.h"; sourceTree = "<group>"; };
 		841E2A7A18A02C8A008042C9 /* UIButton+Classy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Classy.m"; sourceTree = "<group>"; };
 		841E2A7C18A03C1E008042C9 /* ClassyUtilities.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ClassyUtilities.podspec; sourceTree = "<group>"; };
+		8486261B1D99833200968E77 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		8486261C1D99833200968E77 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 		84CF95FE1A3A621B00480703 /* UITextField+Classy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Classy.h"; sourceTree = "<group>"; };
 		84CF95FF1A3A621B00480703 /* UITextField+Classy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Classy.m"; sourceTree = "<group>"; };
 		92DF283F4DF9B243FD2D35FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 		841E2A5218A02B16008042C9 /* ClassyUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				8486261B1D99833200968E77 /* UIImage+ImageWithColor.h */,
+				8486261C1D99833200968E77 /* UIImage+ImageWithColor.m */,
 				841E2A7618A02C79008042C9 /* UILabel+Classy.h */,
 				841E2A7718A02C79008042C9 /* UILabel+Classy.m */,
 				841E2A7918A02C8A008042C9 /* UIButton+Classy.h */,
@@ -292,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8486261D1D99833200968E77 /* UIImage+ImageWithColor.m in Sources */,
 				841E2A5818A02B16008042C9 /* ClassyUtilities.m in Sources */,
 				841E2A7818A02C79008042C9 /* UILabel+Classy.m in Sources */,
 				841E2A7B18A02C8A008042C9 /* UIButton+Classy.m in Sources */,
