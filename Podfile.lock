@@ -1,16 +1,13 @@
 PODS:
   - Classy (0.2.4)
   - DZLCategoryProperties (1.0.0)
-  - UIImage+ImageWithColor (1.4.0)
 
 DEPENDENCIES:
   - Classy (~> 0.2.3)
   - DZLCategoryProperties (~> 1.0.0)
-  - UIImage+ImageWithColor (= 1.4.0)
 
 SPEC CHECKSUMS:
   Classy: 8d39a27d36865856c8cf21cba5d58fa9252037d9
   DZLCategoryProperties: a8a35fe6ee4c4925ab8a4946875ba860da3c8203
-  UIImage+ImageWithColor: 891401f732f2f332fefe68c2332c6c955c2a879c
 
 COCOAPODS: 0.38.0
