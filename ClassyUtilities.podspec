@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:TippingCanoe/ClassyUtilities.git", :tag => "0.1.8" }
   s.source_files  = 'ClassyUtilities/*.{h,m}'
   s.requires_arc = true
-  s.dependency 'Classy', :git => 'https://github.com/TippingCanoe/Classy.git'
+  s.dependency 'Classy'
   s.dependency 'DZLCategoryProperties', '~> 1.0.0'
 
 end
